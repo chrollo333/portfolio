@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
 const IntroView = () => {
+    
 
+
+
+    
     return (
 
         <div className="min-h-screen bg-zinc-900 text-black flex items-center justify-center">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 px-2">
 
                 <div className="text-center md:text-left">
-                    <h1 className="text-5xl font-bold font-bebas"><span className="text-sky-300">WEB</span><br /> <span className="ml-4 text-white">DEVELOPER</span>
+                    <h1 className="text-5xl font-bold font-bebas"><span className="text-yellow-300">WEB</span><br /> <span className="ml-4 text-white">DEVELOPER</span>
                     </h1>
 
                     <p className="mt-7 text-gray-400 text-xl font-poppins">Hi, I'm <span className="text-white">chrollo333 | Lukáš Heinz.</span> <br />
@@ -17,7 +21,7 @@ const IntroView = () => {
                         experience, aesthetics, scalability, and performance for each of my
                         web solutions with 6+ months of experience.
                     </p>
-                    <button className="mt-6 px-6 py-3 bg-sky-300 text-black font-semibold font-bebas text-2xl  hover:bg-sky-600 hover:text-white">
+                    <button className="mt-6 px-6 py-3 bg-yellow-300 text-black font-semibold font-bebas text-2xl transition-colors duration-500 hover:bg-yellow-600 hover:text-white">
                         SOCIALS
                     </button>
                 </div>
