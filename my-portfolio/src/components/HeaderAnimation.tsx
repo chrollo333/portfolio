@@ -10,7 +10,15 @@ const HeaderAnimation = () => {
         transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
       >
         <span className="px-4">
-          {Array(20).fill("MY PROJECTS — ").join("")}
+        {Array(20)
+            .fill(
+              <>
+                MY <span className="text-yellow-400">PROJECTS</span> /{" "}
+              </>
+            )
+            .map((item, index) => (
+              <span key={index}>{item}</span>
+            ))}
         </span>
       </motion.div>
     </div>

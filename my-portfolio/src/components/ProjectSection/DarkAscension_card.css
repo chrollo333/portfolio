@@ -19,6 +19,6 @@
     animation: void-energy 10s ease infinite;
     color: white;
     font-family: Arial, sans-serif; 
-    min-height: 70vh;
+    min-height: 50vh;
     overflow-x: hidden;
   }

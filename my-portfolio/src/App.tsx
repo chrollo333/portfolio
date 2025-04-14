@@ -3,7 +3,7 @@ import TechStack from "./components/TechStack/TechStack";
 import './App.css'
 import DarkAscensionCard from "./components/ProjectSection/DarkAscension_card";
 import AesthaCard from "./components/ProjectSection/Aestha_card";
-import HeaderAnimation from "./components/HeaderAnimation";
+
 
 function App() {
 
@@ -11,14 +11,11 @@ function App() {
   return (
     <div className="bg-zinc-900">
       <IntroView />
-      <TechStack />
-   
-      <HeaderAnimation />
-      <div className="w-full h-12 bg-[repeating-linear-gradient(135deg,#fff_0px,#fff_2px,transparent_2px,transparent_10px)] opacity-10"></div>
+      <h2 className="flex whitespace-nowrap text-6xl font-bebas font-semibold text-white flex justify-center gap-3 mt-20">/ MY <span className="text-yellow-400"> PROJECTS </span>/</h2>
+      <div className="flex justify-center"><div className="w-[60%] h-px bg-gradient-to-r from-purple-900 via-purple-700 to-yellow-500 opacity-70 shadow-sm shadow-yellow-500/20 mt-5 "></div></div>
       <DarkAscensionCard />
-
-
       <AesthaCard />
+      <TechStack />
     </div>
   )
 }
