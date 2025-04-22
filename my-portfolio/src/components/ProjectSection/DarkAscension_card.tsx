@@ -2,20 +2,38 @@ import "./DarkAscension_card.css";
 
 const DarkAscensionCard = () => {
   return (
-<div className="py-12 px-4 flex justify-center">
-  <div className="relative rounded-3xl p-10 w-full max-w-6xl shadow-[0_0_40px_rgba(128,0,255,0.2)] backdrop-blur-md background-style flex flex-col gap-10">
+    <div className="py-12 px-4 flex justify-center">
+      <div className="relative rounded-3xl p-10 w-full max-w-6xl shadow-[0_0_40px_rgba(128,0,255,0.2)] backdrop-blur-md background-style flex flex-col gap-10">
 
-    {/* Buttons */}
-    <div className="md:absolute md:top-6 md:right-6 flex flex-wrap gap-4 md:flex-row flex-col mb-4 md:mb-0 self-end md:self-auto">
-      <a href="https://github.com/chrollo333/DarkAscension" target="_blank" rel="noopener noreferrer"
-        className="px-6 py-2 text-white bg-zinc-900/60 border border-purple-800 shadow-[0_0_8px_rgba(128,0,255,0.2)] hover:shadow-[0_0_18px_rgba(178,102,255,0.4)] hover:bg-purple-900/60 hover:scale-105 transition-all duration-300 backdrop-blur-sm font-poppins text-lg rounded-xl">
-        GitHub
-      </a>
-      <a href="https://yourwebsiteurl.com" target="_blank" rel="noopener noreferrer"
-        className="px-6 py-2 text-white bg-zinc-900/60 border border-purple-800 shadow-[0_0_8px_rgba(128,0,255,0.2)] hover:shadow-[0_0_18px_rgba(178,102,255,0.4)] hover:bg-purple-900/60 hover:scale-105 transition-all duration-300 backdrop-blur-sm font-poppins text-lg rounded-xl">
-        Visit Website
-      </a>
-    </div>
+        {/* Buttons */}
+        <div className="md:absolute md:top-6 md:right-6 flex flex-wrap gap-4 md:flex-row flex-col mb-4 md:mb-0 self-end md:self-auto">
+          <a
+            href="https://github.com/chrollo333/DarkAscension"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-purple-900/60 shadow-[0_0_8px_rgba(128,0,255,0.2)] hover:shadow-[0_0_18px_rgba(178,102,255,0.4)] hover:bg-purple-900/60 hover:scale-105 transition-all duration-300 backdrop-blur-sm rounded-xl"
+          >
+            <img
+              src="/portfolio/assets/imgs/github.svg"
+              alt="GitHub"
+              className="w-6 h-6"
+            />
+          </a>
+
+          <a
+            href="https://yourwebsiteurl.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2 text-white bg-purple-900/60 shadow-[0_0_8px_rgba(128,0,255,0.2)] hover:shadow-[0_0_18px_rgba(178,102,255,0.4)] hover:bg-purple-900/60 hover:scale-105 transition-all duration-300 backdrop-blur-sm font-poppins text-lg rounded-xl flex items-center gap-2"
+          >
+            <img
+              src="/portfolio/assets/imgs/arrow.svg"
+              alt="Arrow"
+              className="w-5 h-5"
+            />
+            Visit Website
+          </a>
+        </div>
 
         {/* Title */}
         <div className="text-center md:text-left">
