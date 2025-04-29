@@ -18,7 +18,7 @@ const AesthaCard = () => {
           </a>
 
           <a
-            href="https://yourwebsiteurl.com"
+            href="google.com"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 text-white bg-zinc-800/60 shadow-[0_0_8px_rgba(128,128,128,0.2)] hover:shadow-[0_0_18px_rgba(200,200,200,0.4)] hover:bg-gray-700/60 hover:scale-105 transition-all duration-300 backdrop-blur-sm font-poppins text-lg rounded-xl flex items-center gap-2"
