@@ -21,7 +21,7 @@ const DarkAscensionCard = () => {
           </a>
 
           <a
-            href="https://yourwebsiteurl.com"
+            href="https://darkascension.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 text-white bg-purple-900/60 shadow-[0_0_8px_rgba(128,0,255,0.2)] hover:shadow-[0_0_18px_rgba(178,102,255,0.4)] hover:bg-purple-900/60 hover:scale-105 transition-all duration-300 backdrop-blur-sm font-poppins text-lg rounded-xl flex items-center gap-2"

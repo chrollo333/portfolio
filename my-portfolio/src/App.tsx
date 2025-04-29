@@ -10,8 +10,8 @@ function App() {
 
   return (
     <div className="bg-zinc-900 scroll-smooth">
-      {/* PC SIDEBAR */}
-      <div className="hidden md:flex fixed top-1/2 -translate-y-1/2 left-4 flex-col gap-4 z-50 bg-zinc-800/60 p-4 rounded-xl border border-yellow-400/20 shadow-[0_0_12px_rgba(255,255,0,0.1)] font-bebas">
+      {/* PC NAVBAR */}
+      <div className="hidden md:flex fixed top-4 right-4 flex gap-6 z-50 font-bebas">
         <a href="#about" className="flex items-center gap-2 text-xl text-gray-400 hover:text-yellow-400 transition">
           <User className="w-6 h-6" />
           <span>ABOUT</span>
@@ -25,7 +25,7 @@ function App() {
           <span>SKILLS</span>
         </a>
       </div>
-      {/*PHONE SIDEBAR*/}
+      {/*PHONE NAVEBAR*/}
       <div className="md:hidden fixed bottom-4 left-1/2 -translate-x-1/2 bg-zinc-800/90 backdrop-blur-md rounded-full px-4 py-2 flex gap-6 shadow-md z-50 border-1 border-yellow-600">
         <a href="#about" className="text-yellow-400 text-sm">About</a>
         <a href="#projects" className="text-yellow-400 text-sm">Projects</a>
