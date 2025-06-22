@@ -54,10 +54,12 @@ const TechStack = () => {
                     { name: "Django", image: "/portfolio/assets/imgs/django.svg" },
                     { name: "Flask", image: "/portfolio/assets/imgs/flask.svg" },
                     { name: "NodeJS", image: "/portfolio/assets/imgs/nodejs.svg" },
+                    { name: "SocketIO", image: "/portfolio/assets/imgs/socket.svg" },
                 ])}
 
                 {stackSection("DATABASE", [
                     { name: "PostgreSQL", image: "/portfolio/assets/imgs/postgre.svg" },
+                    { name: "MongoDB", image: "/portfolio/assets/imgs/mongodb.svg" },
                 ])}
             </div>
         </div>
