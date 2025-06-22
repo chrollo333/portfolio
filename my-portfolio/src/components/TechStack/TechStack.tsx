@@ -53,6 +53,7 @@ const TechStack = () => {
                 {stackSection("BACKEND", [
                     { name: "Django", image: "/portfolio/assets/imgs/django.svg" },
                     { name: "Flask", image: "/portfolio/assets/imgs/flask.svg" },
+                    { name: "NodeJS", image: "/portfolio/assets/imgs/nodejs.svg" },
                 ])}
 
                 {stackSection("DATABASE", [

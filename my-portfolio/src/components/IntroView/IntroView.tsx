@@ -14,8 +14,8 @@ const IntroView = () => {
                     </h1>
 
                     <p className="mt-7 text-gray-400 text-xl font-poppins">Hi, I'm <span className="text-white">chrollo333 | Lukáš Heinz.</span> <br />
-                        Based in the Czech Republic, I’m a frontend developer with over 6 months of hands-on experience building responsive, high-performance web applications.
-                        Driven by a strong visual sense and a competitive mindset, I take pride in crafting clean, user-friendly interfaces that balance functionality with aesthetics.
+                        Based in the Czech Republic, I’m a web developer with over 8 months experience building responsive, user-friendly web applications.
+                        I try to keep a good balance of aesthetics and good UI/UX design in my projects but while trying not to stay too minimalistic.
                     </p>
                     <div className="space-x-5 mt-13 flex justify-left">
                         <a

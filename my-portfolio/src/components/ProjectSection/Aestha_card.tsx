@@ -55,7 +55,7 @@ const AesthaCard = () => {
 
           <div className="flex-1 flex flex-col gap-6">
             <p className="text-white text-lg font-sans leading-relaxed">
-              Aestha is a fashion magazine/social media combination. It uses sleek aesthetic design to showcase the user a randomly generated selection of fashion-based images.
+              Aestha is a fashion magazine/social media combination. It uses sleek aesthetic design to showcase the user a randomly generated selection of fashion-based images and the latest news in fashion pulling from a news API.
             </p>
 
 
