@@ -4,6 +4,7 @@ import './App.css'
 import DarkAscensionCard from "./components/ProjectSection/DarkAscension_card";
 import AesthaCard from "./components/ProjectSection/Aestha_card";
 import { User, Rocket, Wrench } from "lucide-react";
+import LoungeChatCard from "./components/ProjectSection/LoungeChat_card";
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
       <div className="flex justify-center"><div className="w-[60%] h-px bg-gradient-to-r from-purple-900 via-purple-700 to-yellow-500 opacity-70 shadow-sm shadow-yellow-500/20 mt-5 "></div></div>
       <DarkAscensionCard />
       <AesthaCard />
+      <LoungeChatCard />
       <TechStack />
     </div>
   )
